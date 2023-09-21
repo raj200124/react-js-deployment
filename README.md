@@ -24,7 +24,7 @@ ssh -i your-ec2-key.pem ec2-user@your-ec2-ip
 Update the package list and install any available updates:
 
 ```bash
-sudo yum update -y
+sudo apt update -y
 ```
 
 ## Step 3: Install Nginx
@@ -32,7 +32,7 @@ sudo yum update -y
 Install Nginx on your EC2 instance:
 
 ```bash
-sudo yum install nginx -y
+sudo apt install nginx -y
 ```
 
 ## Step 4: Start and Enable Nginx
